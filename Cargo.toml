@@ -1,0 +1,11 @@
+[package]
+name = "slack-avatar-disco"
+version = "1.0.0"
+authors = ["Selwyn <talk@selwyn.cc>"]
+edition = "2018"
+
+[dependencies]
+reqwest = { version = "0.10", features = ["blocking"] }
+
+[profile.release]
+panic = 'abort'
